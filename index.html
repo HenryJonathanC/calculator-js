@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="output">
+            <div data-previous class="upper">
+                
+            </div>
+            <div data-current class="lower">
+                
+            </div>
+        </div> -->
+        <input type="text" class="output" id="output" placeholder="0">
+        <button onclick="wipe()" data-all-clear class="span-two">AC</button>
+        <button onclick="wipe()" data-delete>DEL</button>
+        <button onclick="show('/')" data-operation>÷</button>
+        <button onclick="show('1')" data-number>1</button>
+        <button onclick="show('2')" data-number>2</button>
+        <button onclick="show('3')" data-number>3</button>
+        <button onclick="show('*')" data-operation>*</button>
+        <button onclick="show('4')" data-number>4</button>
+        <button onclick="show('5')" data-number>5</button>
+        <button onclick="show('6')" data-number>6</button>
+        <button onclick="show('+')" data-operation>+</button>
+        <button onclick="show('7')" data-number>7</button>
+        <button onclick="show('8')" data-number>8</button>
+        <button onclick="show('9')" data-number>9</button>
+        <button onclick="show('-')" data-operation>-</button>
+        <button onclick="show('.')" data-number>.</button>
+        <button onclick="show('0')" data-number>0</button>
+        <button onclick="calc('=')" data-equals class="span-two">=</button>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
